@@ -47,7 +47,7 @@ Potential improvements include:
 
 Just run:
 ```
-npm test
+npm run test
 ```
 or
 ```
