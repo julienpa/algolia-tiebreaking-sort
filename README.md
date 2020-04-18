@@ -8,8 +8,8 @@ Original idea and implementation from [mikaa123](https://github.com/mikaa123)!
 
 ## When should it be used?
 
-The main use-case for this is to re-rank an Algolia result-set after it has
-been returned by the search.
+The main use-case for this is to re-rank an Algolia result set after it has
+been returned by the search engine.
 Such need could happen if you want to merge results coming from different
 indices, or if you have a complex ranking strategy that needs 2 layers of
 sorting (Algolia has advanced result-tweaking solutions, but can only apply
@@ -18,7 +18,8 @@ one global ranking strategy)
 ## How to use it?
 
 The most straightforward way to use it is the following:
-```
+
+```javascript
 const algoliasearch = require('algoliasearch')
 const tieBreakingSort = require('algolia-tiebreaking-sort')
 
@@ -45,7 +46,7 @@ Potential improvements include:
 
 ## How to run tests?
 
-Just run:
+Just clone this repository and run:
 ```
 npm run test
 ```
