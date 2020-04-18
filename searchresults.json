@@ -1,0 +1,92 @@
+{
+  "hits": [
+    {
+      "objectID": "3",
+      "_rankingInfo": {
+        "nbTypos": 1,
+        "words": 1,
+        "filters": 3,
+        "proximityDistance": 1,
+        "firstMatchedWord": 1,
+        "userScore": 1
+      }
+    },
+    {
+      "objectID": "1",
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "words": 1,
+        "filters": 1,
+        "proximityDistance": 1,
+        "firstMatchedWord": 1,
+        "userScore": 1
+      }
+    },
+    {
+      "objectID": "2",
+      "_rankingInfo": {
+        "nbTypos": 1,
+        "words": 2,
+        "filters": 1,
+        "proximityDistance": 1,
+        "firstMatchedWord": 1,
+        "userScore": 1
+      }
+    },
+    {
+      "objectID": "6",
+      "_rankingInfo": {
+        "nbTypos": 1,
+        "words": 1,
+        "filters": 1,
+        "proximityDistance": 2,
+        "firstMatchedWord": 2000,
+        "userScore": 2
+      }
+    },
+    {
+      "objectID": "4",
+      "_rankingInfo": {
+        "nbTypos": 1,
+        "words": 1,
+        "filters": 1,
+        "proximityDistance": 1,
+        "firstMatchedWord": 1,
+        "userScore": 1
+      }
+    },
+    {
+      "objectID": "5",
+      "_rankingInfo": {
+        "nbTypos": 1,
+        "words": 1,
+        "filters": 1,
+        "proximityDistance": 2,
+        "firstMatchedWord": 1000,
+        "userScore": 1
+      }
+    },
+    {
+      "objectID": "8",
+      "_rankingInfo": {
+        "nbTypos": 1,
+        "words": 1,
+        "filters": 1,
+        "proximityDistance": 2,
+        "firstMatchedWord": 2000,
+        "userScore": 1
+      }
+    },
+    {
+      "objectID": "7",
+      "_rankingInfo": {
+        "nbTypos": 1,
+        "words": 1,
+        "filters": 1,
+        "proximityDistance": 2,
+        "firstMatchedWord": 2000,
+        "userScore": 1
+      }
+    }
+  ]
+}

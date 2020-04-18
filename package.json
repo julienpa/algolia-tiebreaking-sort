@@ -1,0 +1,28 @@
+{
+  "name": "algolia-tiebreaking-sort",
+  "version": "1.0.0",
+  "description": "Post-processing sorting of search results coming from Algolia",
+  "main": "tiebreakingsort.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julienpa/algolia-tiebreaking-sort.git"
+  },
+  "keywords": [
+    "algolia",
+    "tiebreaking",
+    "search",
+    "ranking"
+  ],
+  "author": "Julien Paroche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julienpa/algolia-tiebreaking-sort/issues"
+  },
+  "homepage": "https://github.com/julienpa/algolia-tiebreaking-sort#readme",
+  "devDependencies": {
+    "jest": "^25.3.0"
+  }
+}
