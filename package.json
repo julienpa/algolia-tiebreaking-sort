@@ -4,7 +4,7 @@
   "description": "Post-processing sorting of search results coming from Algolia",
   "main": "tiebreakingsort.js",
   "scripts": {
-    "test": "jest"
+    "test": "standard --env jest && jest"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/julienpa/algolia-tiebreaking-sort#readme",
   "devDependencies": {
-    "jest": "^25.3.0"
+    "jest": "^25.3.0",
+    "standard": "^14.3.3"
   }
 }

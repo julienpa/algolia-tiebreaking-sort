@@ -6,9 +6,9 @@ const tieBreakingSort = (hitA, hitB) => {
     'words:desc',
     'filters:desc',
     'proximityDistance:asc',
-    'firstMatchedWord:asc',
+    'firstMatchedWord:asc', // attribute
     'nbExactWords:desc',
-    'userScore:desc',
+    'userScore:desc' // custom ranking
   ]
   let rank = 0
 
