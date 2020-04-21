@@ -7,8 +7,8 @@
 
 ## What is it?
 
-This package is a simple post-processing sorting of search results coming from
-Algolia, with zero dependency.
+This package is a simple and fast post-processing sorting of search results
+coming from Algolia, with zero dependency.
 Original idea and implementation from [mikaa123](https://github.com/mikaa123)!
 
 ## When should it be used?
@@ -19,6 +19,10 @@ Such need could happen if you want to merge results coming from different
 indices, or if you have a complex ranking strategy that needs 2 layers of
 sorting (Algolia has advanced result-tweaking solutions, but can only apply
 one global ranking strategy).
+
+For the most performance-conscious people, a quick benchmark with
+Array.prototype.sort() and Node.js v14.0.0 showed that the function can sort
+8000 results in less than 50 milliseconds.
 
 ## How to use it?
 
