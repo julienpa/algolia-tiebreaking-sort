@@ -1,6 +1,6 @@
 {
   "name": "algolia-tiebreaking-sort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Post-processing sorting of search results coming from Algolia",
   "main": "tiebreakingsort.js",
   "scripts": {
