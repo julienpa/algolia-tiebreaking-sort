@@ -41,14 +41,15 @@ const algoliasearch = require('algoliasearch')
 const tieBreakingSort = require('algolia-tiebreaking-sort')
 
 const client = algoliasearch('APPID', 'APIKEY')
-const index = client.initIndex('index_name')
+const index1 = client.initIndex('index_name_1')
+const index2 = client.initIndex('index_name_2')
 
 // Only requirement is to have `_rankingInfo` and `objectID` for each hit
-const search = index.search('my query', { getRankingInfo: true })
+const search1 = index1.search('my query', { getRankingInfo: true })
+const search2 = index2.search('my query', { getRankingInfo: true })
 
-// Here we have only 1 result set, but `hits` could be an array that
-// aggregates results from different queries
-search.then(({ hits }) => {
+Promise.all([search1, search2]).then(results => {
+  const hits = [...results[0].hits, ...results[1].hits]
   console.log(hits.sort(tieBreakingSort))
 })
 ```
@@ -70,7 +71,7 @@ npm test
 yarn test
 ```
 
-# Disclaimer
+## Disclaimer
 
 This package is not officially supported by [Algolia](https://www.algolia.com/),
 so it cannot be held responsible for any use in production. If you need support,
