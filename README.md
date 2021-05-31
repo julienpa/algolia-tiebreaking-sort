@@ -21,8 +21,8 @@ sorting (Algolia has advanced result-tweaking solutions, but can only apply
 one global ranking strategy).
 
 For the most performance-conscious people, a quick benchmark with
-Array.prototype.sort() and Node.js v14.0.0 showed that the function can sort
-8000 results in less than 50 milliseconds.
+Array.prototype.sort() and Node.js v16.2.0 showed that the function can sort
+5000 results in less than 50 milliseconds.
 
 ## How to use it?
 

@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/julienpa/algolia-tiebreaking-sort#readme",
   "devDependencies": {
-    "jest": "^25.3.0",
-    "standard": "^14.3.3"
+    "jest": "^27.0.0",
+    "standard": "^16.0.0"
   },
   "engines": {
     "node": ">=8.10.0"

@@ -21,7 +21,7 @@ test('tieBreakingSort to sort sample results', () => {
  * Performance tests
  */
 const maxExecutionTimeMS = 50
-const nbLoops = 1000
+const nbLoops = 625
 const nbItems = searchResults.hits.length
 test(`sorting ${nbLoops * nbItems} results to take less than ${maxExecutionTimeMS}ms`, () => {
   const unsorted = []
